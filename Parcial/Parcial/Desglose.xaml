@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Parcial.Desglose"
+             BackgroundColor="Black">
+    
+    <StackLayout>
+        <Label Text="Desglose de Dinero" 
+               FontAttributes="Bold"
+               FontSize="35"
+               HorizontalOptions="Center"
+               TextColor="White"
+               FontFamily="AthleticOutfit.ttf"/>
+
+        <Entry Placeholder="Ingrese su cantidad para desglosar"
+               x:Name = "cantidad"
+               Keyboard="Numeric"
+               BackgroundColor="DarkBlue"
+               PlaceholderColor="Gold"/>
+        
+        <Label Text="Billetes de 200: "
+               x:Name="doscientos"
+               TextColor="White"
+               FontSize="25"/>
+
+        <Label Text ="Billetes de 100: "
+               x:Name="cien"
+               TextColor="White"
+               FontSize="25"/>
+
+        <Label Text ="Billetes de 50: "
+               x:Name="cincuenta"
+               TextColor="White"
+               FontSize="25"/>
+
+        <Label Text ="Billetes de 20: "
+               x:Name="veinte"
+               TextColor="White"
+               FontSize="25"/>
+
+        <Label Text ="Billetes de 10: "
+               x:Name="diez"
+               TextColor="White"
+               FontSize="25"/>
+
+        <Label Text ="Billetes de 5: "
+               x:Name="cinco"
+               TextColor="White"
+               FontSize="25"/>
+
+        <Label Text ="Billetes de 1: "
+               x:Name="uno"
+               TextColor="White"
+               FontSize="25"/>
+
+        <Label Text ="Monedas de 50 centavos: "
+               x:Name="cencincuenta"
+               TextColor="White"
+               FontSize="25"/>
+
+        <Label Text ="Monedas de 25 centavos: "
+               x:Name="cenveinticinco"
+               TextColor="White"
+               FontSize="25"/>
+
+        <Label Text ="Monedas de 10 centavos: "
+               x:Name="cendiez"
+               TextColor="White"
+               FontSize="25"/>
+
+        <Label Text ="Monedas de 5 centavos: "
+               x:Name="cencinco"
+               TextColor="White"
+               FontSize="25"/>
+
+        <Label Text ="Monedas de 1 centavos: "
+               x:Name="cenuno"
+               TextColor="White"
+               FontSize="25"/>
+
+        <Button Text="Desglose"
+                FontSize="25"
+                Clicked="Button_Clicked"
+                BackgroundColor="DarkBlue"
+                TextColor="Gold"
+                FontAttributes="Bold"/>
+
+    </StackLayout>
+</ContentPage>

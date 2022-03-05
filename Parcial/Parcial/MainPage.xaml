@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Parcial.MainPage"
+             BackgroundColor="Black">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+
+        <Label Text="Seleccione la Opción que Desee" 
+               FontAttributes="Bold"
+               FontSize="30"
+               TextColor="White"/>
+
+        <Button Text="Desglose"
+                FontSize="25"
+                Clicked="Button_Clicked"
+                BackgroundColor="DarkBlue"
+                TextColor="Gold"
+                FontAttributes="Bold"/>
+
+
+        <Button Text="Desglose de Dolares a Quetzales"
+                FontSize="25"
+                Clicked="Button_Clicked_1"
+                BackgroundColor="DarkBlue"
+                TextColor="Gold"
+                FontAttributes="Bold"/>
+    </StackLayout>
+
+</ContentPage>

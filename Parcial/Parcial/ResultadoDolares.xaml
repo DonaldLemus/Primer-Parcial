@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Parcial.ResultadoDolares"
+             BackgroundColor="Black">
+    
+    <StackLayout>
+        
+        <Label x:Name = "conversión"
+               TextColor="White"
+               FontSize="30"
+               FontAttributes="Bold"/>
+
+        <Label x:Name="doscientos"
+              TextColor="Gold"
+               FontSize="30"
+               FontAttributes="Bold"/>
+
+        <Label x:Name="cien"
+               TextColor="White"
+               FontSize="30"
+               FontAttributes="Bold"/>
+
+        <Label x:Name="cincuenta"
+               TextColor="Gold"
+               FontSize="30"
+               FontAttributes="Bold"/>
+
+        <Label x:Name="veinte"
+               TextColor="White"
+               FontSize="30"
+               FontAttributes="Bold"/>
+
+        <Label x:Name="diez"
+               TextColor="Gold"
+               FontSize="30"
+               FontAttributes="Bold"/>
+
+        <Label x:Name="cinco"
+               TextColor="White"
+               FontSize="30"
+               FontAttributes="Bold"/>
+
+        <Label x:Name="uno"
+               TextColor="Gold"
+               FontSize="30"
+               FontAttributes="Bold"/>
+
+        <Label x:Name="cencincuenta"
+               TextColor="White"
+               FontSize="30"
+               FontAttributes="Bold"/>
+
+        <Label x:Name="cenveinticinco"
+               TextColor="Gold"
+               FontSize="30"
+               FontAttributes="Bold"/>
+
+        <Label x:Name="cendiez"
+               TextColor="White"
+               FontSize="30"
+               FontAttributes="Bold"/>
+
+        <Label x:Name="cencinco"
+               TextColor="Gold"
+               FontSize="30"
+               FontAttributes="Bold"/>
+
+        <Label x:Name="cenuno"
+               TextColor="White"
+               FontSize="30"
+               FontAttributes="Bold"/>
+        
+    </StackLayout>
+
+</ContentPage>
